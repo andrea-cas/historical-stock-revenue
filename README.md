@@ -8,8 +8,11 @@ This project retrieves and visualizes historical stock prices and revenue data f
 To run this project, you need to have Python installed along with the following libraries:
 
 `pip install yfinance==0.1.67`
+
 `mamba install bs4==4.10.0 -y`
+
 `pip install nbformat==4.2.0`
+
 `pip install pandas==1.3.5`
 
 ## Usage
@@ -21,7 +24,7 @@ To run the script, simply execute it in a Python environment. The script perform
 - Cleans and processes the data.
 - Generates and displays line plots for stock prices and revenue over time.
 
-`python your_script.py`
+`python tesla_gs_analysis.py`
 
 ## Data Sources
 
